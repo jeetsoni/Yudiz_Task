@@ -1,0 +1,18 @@
+
+html,
+body {
+  height: 100%;
+  /* background-color: #0c0c0ca8; */
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #191818;
+}
+.pink-snackbar {
+  background-color: #ff6265;
+  color: white;
+}
+* {
+  font-family: SFUIText-Regular;
+}

@@ -1,0 +1,32 @@
+mat-card {
+  position: absolute;
+  top: 10em;
+  left: 33em;
+  width: 40%;
+}
+mat-form-field {
+  width: 100%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+button {
+  width: 100%;
+  margin-top: 10px;
+}
+mat-spinner {
+  margin: auto;
+  position: relative;
+  top: 18em;
+}
+
+::ng-deep
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: #ff6265 !important;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: #ff6265 !important;
+}

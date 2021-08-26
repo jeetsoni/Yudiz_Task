@@ -1,0 +1,28 @@
+<div class="col-md-12">
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+  <div class="row" *ngIf="!isLoading">
+    <div class="col-md-4 offset-md-4 login-form">
+      <mat-card>
+        <h1>Login Here</h1>
+        <form #form="ngForm" (ngSubmit)="onLogin(form)">
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Email" name="email" ngModel required />
+            <mat-error *ngIf="form.invalid">Email is required</mat-error>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Password" name="password" ngModel required />
+            <mat-error *ngIf="form.invalid">Password is required</mat-error>
+          </mat-form-field>
+          <button style="background-color: #ff6265" mat-raised-button color="primary" type="submit">
+            Login
+          </button>
+          <button routerLink="/register" mat-button color="basic" style="color: #ff6265">
+            Register
+          </button>
+        </form>
+      </mat-card>
+    </div>
+  </div>
+</div>

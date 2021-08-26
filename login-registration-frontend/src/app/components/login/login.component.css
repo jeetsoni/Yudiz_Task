@@ -1,0 +1,54 @@
+mat-form-field {
+  width: 100%;
+  margin: auto;
+}
+.login-form button {
+  width: 100%;
+  margin: auto;
+  margin-top: 1em;
+}
+.login-form h1 {
+  text-align: center;
+}
+mat-card {
+  margin: 10em 0em;
+}
+.login-left-side h1 {
+  color: #ff6265;
+  text-align: center;
+  position: relative;
+  top: 33%;
+  right: 12%;
+  font-size: xxx-large;
+}
+.login-left-side h2 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 35%;
+  right: 34%;
+}
+.login-left-side button {
+  color: white;
+  position: absolute;
+  top: 42.6%;
+  left: 31%;
+}
+mat-spinner {
+  margin: auto;
+  position: relative;
+  top: 18em;
+}
+::ng-deep
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: #ff6265 !important;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: #ff6265 !important;
+}
+::ng-deep .mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #ff6265;
+}

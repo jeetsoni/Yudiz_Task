@@ -1,0 +1,10 @@
+.welcome {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 5em;
+}
+.welcome p{
+  padding: 50px;
+}
